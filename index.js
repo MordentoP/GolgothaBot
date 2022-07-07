@@ -79,7 +79,7 @@ bot.hears("всі пісні", (ctx) => {
     for (let i = 0; i < songs.length; i++){
      
         bot.hears(songs[i].title.toLowerCase(), (ctx) => ctx.reply(songs[i].text))
-        // bot.hears(songs[i].title.split(' '), (ctx) => ctx.reply(songs[i].text))
+       
         
      
     }
