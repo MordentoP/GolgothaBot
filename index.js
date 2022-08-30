@@ -5,15 +5,6 @@ const token = require('./token')
 const bot = new Telegraf(token);
 
 
-bot.start((ctx) => ctx.reply('Choose your side'))
-bot.help((ctx) => ctx.reply('Send me a sticker'))
-bot.on('sticker', (ctx) => ctx.reply('👍'))
-bot.hears('hi', (ctx) => ctx.reply('Hey there'))
-bot.hears('hehe', (ctx) => ctx.reply('hihi'))
-
-
-
-
 
 // Getting song titles
 
